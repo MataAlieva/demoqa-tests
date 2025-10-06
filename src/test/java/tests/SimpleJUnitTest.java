@@ -1,9 +1,7 @@
+package tests;
+
 import org.junit.jupiter.api.*;
 
-import java.util.Stack;
-import java.util.function.BooleanSupplier;
-
-import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 import static org.junit.platform.commons.util.Preconditions.condition;
